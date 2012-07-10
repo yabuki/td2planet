@@ -1,0 +1,48 @@
+Description: Upstream changes introduced in version 0.2.0-1.1
+ This patch has been created by dpkg-source during the package build.
+ Here's the last changelog entry, hopefully it gives details on why
+ those changes were made:
+ .
+ td2planet (0.2.0-1.1) unstable; urgency=low
+ .
+   * Non-maintainer upload.
+   * converting to source format '3.0 (quilt)'
+ .
+ The person named in the Author field signed this changelog entry.
+Author: YABUKI Yukiharu <yyabuki@debian.org>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: http://bugs.debian.org/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- td2planet-0.2.0.orig/config.yaml
++++ td2planet-0.2.0/config.yaml
+@@ -4,7 +4,6 @@ base_uri: http://planet.example.jp/
+ 
+ ## feed URIs
+ uri:
+-  - http://kazuhiko.tdiary.net/index.rdf
+   - http://sho.tdiary.net/index.rdf
+   - http://www.tdiary.net/index.rdf
+   - http://www.tdiary.org/index.rdf
+--- /dev/null
++++ td2planet-0.2.0/bin/td2planet
+@@ -0,0 +1,10 @@
++#! /usr/bin/ruby1.8 -Ku
++# -*- mode: ruby; coding: utf-8 -*-
++# vim: set filetype=ruby ts=2 sw=2 sts=2 fenc=utf-8:
++#
++# copyright (c) 2006, 2007 Kazuhiro NISHIYAMA
++
++require 'td2planet/runner'
++require 'td2planet/version'
++
++TD2Planet.main

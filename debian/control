@@ -1,0 +1,17 @@
+Source: td2planet
+Section: web
+Priority: extra
+Maintainer: Yukiharu YABUKI <yyabuki@debian.org>
+Build-Depends: cdbs, debhelper (>= 5), ruby-pkg-tools (>= 0.11)
+Build-Depends-Indep: ruby1.8
+Standards-Version: 3.9.3
+Homepage: http://rubyforge.org/projects/td2planet/
+
+Package: td2planet
+Architecture: all
+Depends: ruby1.8, ${misc:Depends}
+Recommends: tdiary-theme
+Description: Ruby-based server-side blog aggregator
+ This package is a server-side blog aggregator (commonly called a
+ 'planet') which is well-suited for aggregating tDiary-based blogs. 
+ See /usr/share/doc/td2planet/README.

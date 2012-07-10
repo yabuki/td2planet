@@ -1,0 +1,48 @@
+td2planet (0.2.0-3) unstable; urgency=low
+
+  * update standard version
+
+ -- Yukiharu YABUKI <yyabuki@debian.org>  Wed, 11 Jul 2012 05:44:05 +0900
+
+td2planet (0.2.0-2) unstable; urgency=low
+
+  * converting to source format '3.0 (quilt)'
+
+ -- Yukiharu YABUKI <yyabuki@debian.org>  Wed, 07 Apr 2010 15:58:05 +0900
+
+td2planet (0.2.0-1) unstable; urgency=low
+
+  * New upstream release
+  * Upstream fixed bug (Closes: #552186).
+
+ -- Yukiharu YABUKI <yyabuki@debian.org>  Thu, 29 Oct 2009 19:47:21 +0900
+
+td2planet (0.1.0-4) unstable; urgency=low
+
+  * Update new standard version (3.8.2)
+  - Correct E: clean-should-be-satisfied-by-build-depends
+
+ -- Yukiharu YABUKI <yabuki@netfort.gr.jp>  Mon, 22 Jun 2009 11:59:59 +0900
+
+td2planet (0.1.0-3) unstable; urgency=low
+
+  * Collect some lintian errors.
+   - W: td2planet: script-with-language-extension usr/bin/td2planet.rb
+   - W: td2planet: copyright-contains-dh_make-todo-boilerplate
+   - W: td2planet: description-contains-homepage
+   - W: td2planet: debhelper-but-no-misc-depends
+
+ -- Yukiharu YABUKI <yabuki@netfort.gr.jp>  Sun, 14 Jun 2009 23:24:14 +0900
+
+td2planet (0.1.0-2) unstable; urgency=low
+
+  * Correct Description and Review sentence in Debian-l10n-English
+    (Closes: #428061).
+
+ -- Yukiharu YABUKI <yabuki@netfort.gr.jp>  Mon, 11 Jun 2007 10:58:42 +0900
+
+td2planet (0.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #425347). 
+
+ -- Yukiharu YABUKI <yabuki@netfort.gr.jp>  Fri, 23 Feb 2007 18:39:37 +0900
