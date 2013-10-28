@@ -1,0 +1,37 @@
+2009-10-29  Kazuhiro NISHIYAMA  <zn@mbf.nifty.com>
+
+	* td2planet.gemspec: add description.
+
+2009-10-28  Kazuhiro NISHIYAMA  <zn@mbf.nifty.com>
+
+	* lib/td2planet/version.rb: bump up version.
+
+	* README, README.ja: update copyright year.
+
+	* lib/td2planet/*.rb: update copyright year. remove #-- and #++.
+
+	* README: update description. thanks debian-l10n-english ML.
+	http://lists.debian.org/debian-l10n-english/2007/06/msg00123.html
+
+2009-10-28  Kazuhiro NISHIYAMA  <zn@mbf.nifty.com>
+
+	* lib/td2planet/formatter.rb: ignore error of URI.parse.
+	see http://bugs.debian.org/552186
+
+2009-10-28  Kazuhiro NISHIYAMA  <zn@mbf.nifty.com>
+
+	* lib/td2planet/fetcher.rb: add User-Agent.
+
+	* lib/td2planet/fetcher.rb, lib/td2planet/formatter.rb,
+	data/td2planet/templates/day.rhtml,
+	data/td2planet/templates/footer.rhtml,
+	data/td2planet/templates/opml.rxml: allow missing properties.
+
+2007-06-05  Kazuhiro NISHIYAMA  <zn@mbf.nifty.com>
+
+	* lib/td2planet/fetcher.rb (TD2Planet::Fetcher#fetch_all_rss):
+	do not stop when exception.
+
+2007-02-22  Kazuhiro NISHIYAMA  <zn@mbf.nifty.com>
+
+	* Initial public release.
