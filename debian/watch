@@ -6,18 +6,6 @@
 # Compulsory line, this is a version 3 file
 version=3
 
-# Uncomment to examine a Webpage 
-# <Webpage URL> <string match>
-#http://www.example.com/downloads.php td2planet-(.*)\.tar\.gz
-
-# Uncomment to examine a Webserver directory
-#http://www.example.com/pub/td2planet-(.*)\.tar\.gz
-http://rubyforge.org/frs/?group_id=3122&release_id=9895 \
-  .*td2planet-(.*)\.tar\.gz
-
-# Uncommment to examine a FTP server
-#ftp://ftp.example.com/pub/td2planet-(.*)\.tar\.gz debian uupdate
-
-# Uncomment to find new files on sourceforge, for debscripts >= 2.9
-# http://sf.net/td2planet/td2planet-(.*)\.tar\.gz
-
+# For GitHub projects you can use the tags page:
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/<project>-$1.tar.gz/ \
+  https://github.com/znz/td2planet/releases .*/v?(\d\S*)\.tar\.gz
