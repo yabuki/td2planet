@@ -1,15 +1,14 @@
 This package was debianized by Yukiharu YABUKI <yabuki@netfort.gr.jp> on
 Fri, 23 Feb 2007 18:39:37 +0900.
 
-It was downloaded from http://rubyforge.org/projects/td2planet/
+It was downloaded from https://github.com/znz/td2planet/releases
 
 Upstream Author: Kazuhiro NISHIYAMA  <zn@mbf.nifty.com>
 
 Copyright: 
+  Copyright (c) 2006, 2007, 2009, 2013 Kazuhiro NISHIYAMA
 
-License (everything except setup.rb):
-
-  Copyright (c) 2006, 2007 Kazuhiro NISHIYAMA
+License:
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -30,11 +29,5 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Lisense (setup.rb):
-
-Copyright (c) 2000-2005 Minero Aoki 
-
-setup.rb:: GNU LGPL See LGPL File
-
-The Debian packaging is (C) 2007, Yukiharu YABUKI <yabuki@netfort.gr.jp> and
-is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
+The Debian packaging is (C) 2007-2013, Yukiharu YABUKI <yabuki@netfort.gr.jp>
+and is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
