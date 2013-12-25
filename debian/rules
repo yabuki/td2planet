@@ -1,18 +1,15 @@
 #!/usr/bin/make -f
-  
-include /usr/share/cdbs/1/rules/debhelper.mk
-#include /usr/share/cdbs/1/class/makefile.mk 
-include /usr/share/ruby-pkg-tools/1/class/ruby-setup-rb.mk
+# -*- makefile -*-
 
-# Add here any variable or target overrides you need.
+#DH_VERBOSE=1
 
-# force using a specific ruby version for build
-# # (should not be necessary)
-# DEB_RUBY_VERSIONS := 1.9
+%:
+	dh $@ --buildsystem=ruby --with ruby
 
-# use ancestor
-#DEB_RUBY_SETUP_CMD := install.rb
-
-# lintian gives me advice that you should not install execute proguram with extention (.rb).
-install/td2planet::
-	[ -f debian/td2planet/usr/bin/td2planet.rb ]; rm debian/td2planet/usr/bin/td2planet.rb
+override_dh_auto_install:
+	dh_auto_install
+	# dh9 makes td2planet. It is no need to exist td2planet.rb
+	# if you have knowledge wich do not install td2planet.rb
+        # please let me know. I tried dh_auto_install -X option
+	# dh_auto-install -- -X option. Neither work fine.
+	rm debian/td2planet/usr/bin/td2planet.rb
