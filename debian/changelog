@@ -1,3 +1,17 @@
+td2planet (0.3.0-1) unstable; urgency=medium
+
+  [ Yukiharu YABUKI ]
+  * Imported Upstream version 0.3.0
+  * update watch file for github
+  * Update Section (web -> ruby)
+  * Change Packaging Method (DH7)
+  * Modified minor debian/copyright
+  * Fixed bug (Closes: #730581)
+
+  [ YABUKI Yukiharu ]
+
+ -- Yukiharu YABUKI <yyabuki@debian.org>  Wed, 25 Dec 2013 18:45:42 +0900
+
 td2planet (0.2.0-3) unstable; urgency=low
 
   * update standard version
