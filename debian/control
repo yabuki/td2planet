@@ -1,5 +1,5 @@
 Source: td2planet
-Section: web
+Section: ruby
 Priority: extra
 Maintainer: Yukiharu YABUKI <yyabuki@debian.org>
 Build-Depends: cdbs, debhelper (>= 5), ruby-pkg-tools (>= 0.11)
