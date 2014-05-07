@@ -5,7 +5,7 @@ Maintainer: Yukiharu YABUKI <yyabuki@debian.org>
 Build-Depends: debhelper-compat (= 12), gem2deb (>= 0.3.0~)
 Build-Depends-Indep: ruby | ruby-interpreter
 Standards-Version: 3.9.5
-Homepage: http://github/znz/td2planet/
+Homepage: http://github.com/znz/td2planet/
 Vcs-Browser: https://github.com/yabuki/td2planet
 Vcs-Git: https://github.com/yabuki/td2planet.git
 XS-Ruby-Versions: all
