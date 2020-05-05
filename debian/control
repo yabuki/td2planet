@@ -1,6 +1,6 @@
 Source: td2planet
 Section: ruby
-Priority: extra
+Priority: optional
 Maintainer: Yukiharu YABUKI <yyabuki@debian.org>
 Build-Depends: debhelper-compat (= 12), gem2deb (>= 0.3.0~)
 Build-Depends-Indep: ruby | ruby-interpreter
