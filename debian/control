@@ -18,5 +18,5 @@ Depends: ruby | ruby-interpreter,
 Recommends: tdiary-theme
 Description: Ruby-based server-side blog aggregator
  This package is a server-side blog aggregator (commonly called a
- 'planet') which is well-suited for aggregating tDiary-based blogs. 
+ 'planet') which is well-suited for aggregating tDiary-based blogs.
  See /usr/share/doc/td2planet/README.
