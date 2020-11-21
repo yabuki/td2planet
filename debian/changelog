@@ -1,5 +1,8 @@
-td2planet (0.3.0-2) UNRELEASED; urgency=medium
+td2planet (0.3.0-4) unstable; urgency=medium
 
+  [ Yukiharu YABUKI ]
+  * Merges below
+  [ Debian Janitor ]
   * Trim trailing whitespace.
   * Bump debhelper from deprecated 9 to 12.
   * Set debhelper-compat version in Build-Depends.
@@ -7,7 +10,7 @@ td2planet (0.3.0-2) UNRELEASED; urgency=medium
   * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
     Repository-Browse.
 
- -- Debian Janitor <janitor@jelmer.uk>  Tue, 05 May 2020 14:29:31 +0000
+ -- Yukiharu YABUKI <yyabuki@debian.org>  Sun, 22 Nov 2020 00:14:16 +0900
 
 td2planet (0.3.0-3) unstable; urgency=medium
 
