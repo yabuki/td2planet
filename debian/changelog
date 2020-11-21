@@ -1,10 +1,32 @@
+td2planet (0.3.0-4) unstable; urgency=medium
+
+  [ Yukiharu YABUKI ]
+  * Merges below
+  [ Debian Janitor ]
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + td2planet: Add :any qualifier for ruby dependency.
+  * Trim trailing whitespace.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Change priority extra to priority optional.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+ -- Yukiharu YABUKI <yyabuki@debian.org>  Sun, 22 Nov 2020 00:14:16 +0900
+
+td2planet (0.3.0-3) unstable; urgency=medium
+
+  [ Yukiharu YABUKI ]
+  * Correct upload destination.
+  * I gave gbp command option which is '--git-no-create-orig'
+
+ -- Yukiharu YABUKI <yyabuki@debian.org>  Wed, 07 May 2014 20:14:16 +0900
+
 td2planet (0.3.0-2) unstable; urgency=medium
 
   [ Yukiharu YABUKI ]
   * Correct url : (Closes: #747279)
-  [ Debian Janitor ]
-  * Apply multi-arch hints.
-    + td2planet: Add :any qualifier for ruby dependency.
 
  -- Yukiharu YABUKI <yyabuki@debian.org>  Wed, 07 May 2014 18:56:16 +0900
 
@@ -67,6 +89,6 @@ td2planet (0.1.0-2) unstable; urgency=low
 
 td2planet (0.1.0-1) unstable; urgency=low
 
-  * Initial release (Closes: #425347). 
+  * Initial release (Closes: #425347).
 
  -- Yukiharu YABUKI <yabuki@netfort.gr.jp>  Fri, 23 Feb 2007 18:39:37 +0900
