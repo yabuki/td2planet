@@ -16,6 +16,7 @@ XB-Ruby-Versions: ${ruby:Versions}
 Depends: ruby:any | ruby-interpreter,
          ${misc:Depends}
 Recommends: tdiary-theme
+Multi-Arch: foreign
 Description: Ruby-based server-side blog aggregator
  This package is a server-side blog aggregator (commonly called a
  'planet') which is well-suited for aggregating tDiary-based blogs.
