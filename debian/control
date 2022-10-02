@@ -13,8 +13,7 @@ XS-Ruby-Versions: all
 Package: td2planet
 Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
-Depends: ruby:any | ruby-interpreter,
-         ${misc:Depends}
+Depends: ruby:any , ${misc:Depends}
 Recommends: tdiary-theme
 Multi-Arch: foreign
 Description: Ruby-based server-side blog aggregator
