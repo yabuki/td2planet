@@ -1,3 +1,10 @@
+td2planet (0.3.0-5) UNRELEASED; urgency=medium
+
+  * Use secure URI in Homepage field.
+  * Bump debhelper from old 12 to 13.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Thu, 29 Sep 2022 13:35:26 -0000
+
 td2planet (0.3.0-4) unstable; urgency=medium
 
   [ Yukiharu YABUKI ]
